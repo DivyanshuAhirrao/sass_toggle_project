@@ -1,0 +1,17 @@
+$primarycolor : cornflowerblue;
+$kColor : slateblue;
+$secondaryc : rgb(150, 237, 100);
+$direction : right;
+$darkColor : black;
+$lightColor : white;
+
+@mixin theme($bgColor , $contentColor){
+    background-color: $bgColor;
+    color: $contentColor;
+}
+
+@mixin centered(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

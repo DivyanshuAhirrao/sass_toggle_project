@@ -1,0 +1,29 @@
+@import "./nav";
+@import "./global";
+
+* {
+  margin: 0;
+}
+
+div{
+  @include centered();
+  @include theme(black, white);
+  height: 90vh;
+  width: 100%;
+}
+.fa-toggle-on {
+  font-size: 30px;
+  transition: all 0.4s;
+}
+span {
+  position: relative;
+  bottom: 5.9px;
+  padding: 10px;
+  .fa-regular {
+    transition: all 0.1s;
+  }
+  &:last-child {
+    visibility: hidden;
+  }
+}
+

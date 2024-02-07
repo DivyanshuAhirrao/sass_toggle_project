@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: slateblue;
+}
+nav aside button:last-child {
+  background-color: rgb(150, 237, 100);
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+* {
+  margin: 0;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 90vh;
+  width: 100%;
+}
+
+.fa-toggle-on {
+  font-size: 30px;
+  transition: all 0.4s;
+}
+
+span {
+  position: relative;
+  bottom: 5.9px;
+  padding: 10px;
+}
+span .fa-regular {
+  transition: all 0.1s;
+}
+span:last-child {
+  visibility: hidden;
+}/*# sourceMappingURL=styles.css.map */

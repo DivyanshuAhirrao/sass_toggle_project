@@ -1,0 +1,18 @@
+@import './global';
+
+nav{
+    @include centered();
+    height: 10vh;
+    width: 100%;
+    background-color: $kColor;
+    aside {
+        button:last-child{
+            background-color: $secondaryc;
+        }
+    }
+}
+article{
+    @include centered();
+    width: 75%;
+}
+
